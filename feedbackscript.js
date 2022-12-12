@@ -1,14 +1,12 @@
-
-/*
 function myFunction() {
     var element = document.getElementById("uncheck");
     element.classList.toggle("star-class")
 }
-*/
 
+
+
+/*
 window.onLoadActions()
-
-
 
 function onLoadActions() {
     var y = document.getElementById("uncheck").getAttribute("class");
@@ -18,6 +16,7 @@ function onLoadActions() {
       y = "uncheck";
     }
   }
+*/
 
 
 /*
