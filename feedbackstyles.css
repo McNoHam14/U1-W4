@@ -18,6 +18,7 @@ header img {
 .main-content {
     text-align: center;
     margin-top: 80px;
+    margin-inline: 160px;
     color: rgb(231, 229, 227);
 }
 
@@ -35,8 +36,6 @@ p {
     margin-bottom: 40px;
 /*  width: 80%; */
 }
-
-
 
 hr {
     width: 65%;
@@ -61,6 +60,7 @@ footer {
 .more-info {
     background-color: #00FFFF;
     border: none;
+    cursor: pointer;
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 1.6rem;
@@ -76,39 +76,47 @@ footer {
 
 
 #stars-container {
-    padding: .6em;
     cursor: pointer;
 }
 
-/*
-.star-class::before {
-    color: #36454F;
+.star {
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    /*    border: 1px solid white; */
 }
 
-.star-class::after {
-    color: #36454F;
+.star-unselected {
+    fill: #d4d4d4;
+}
+
+.star:hover {
+    transform: scale(1.5);
+}
+
+#hide-original-star {
+    display: none;
+}
+
+/*
+#feedback {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 */
+
+
+
+
+/* check all of the below as they may be redundant */
 
 .uncheck {
     color: #36454F;
 }
 
 .check {
-    fill: #00FFFF;
+    color: #00FFFF;
 }
-
-/*
-.normal {
-    background-color: grey;
-  }
-  
-  .active {
-    background-color: blue;
-  }
-*/
-
-
 
 table {
     margin: 0 auto;
